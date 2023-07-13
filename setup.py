@@ -47,6 +47,7 @@ def main():
         python_requires=">=3.6",
         install_requires=[
             'pibooth>=2.0.0',
+            'rpi_ws281x'
         ],
         zip_safe=False,  # Don't install the lib as an .egg zipfile
         entry_points={'pibooth': ["pibooth_extra_lights = pibooth_extra_lights"]},
